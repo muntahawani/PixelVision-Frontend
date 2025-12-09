@@ -5,9 +5,6 @@ import 'package:path_provider/path_provider.dart';
 import 'package:flutter/foundation.dart';
 
 class ImageProcessingService {
-  static const String _replicateApiKey =
-      "r8_2fWvpjB2YOFILqmzgg6BCQYxqMI4CKD3aC2uL";
-  static const String _baseUrl = 'https://api.replicate.com/v1';
   static const String _hdrModel =
       'nightmareai/real-esrgan:42fed1c4974146d4d2414e2be2c5277c7fcf05fcc3a73abf41610695738c1d7b';
   static const String _depthModel =
