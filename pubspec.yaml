@@ -1,0 +1,42 @@
+name: pixel_vision
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+# Camera functionality
+  camera: ^0.10.5+9
+  
+  # Image handling
+  image: ^4.1.7
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  
+  # Gallery and media
+  photo_manager: ^3.0.0
+  photo_manager_image_provider: ^2.1.0
+  gal: ^2.3.0  # <--- CHANGED: Replaced gallery_saver with gal
+  
+  # Sharing
+  share_plus: ^7.2.2
+  
+  # HTTP requests for API calls
+  http: ^0.13.3
+  
+  # State management (optional)
+  provider: ^6.1.1
+  
+  # Storage
+  shared_preferences: ^2.2.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
